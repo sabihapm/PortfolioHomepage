@@ -1,0 +1,106 @@
+h3 body{
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:#0492C2;
+    
+}
+
+.header a{
+    text-decoration: none; 
+    color: #333;
+    font-size: 16px;
+    list-style: none;
+}
+
+.header li{
+    margin: 0 10px;
+}
+
+.logo {
+    max-width: 100%;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin-right: 180x;
+}
+.footer{
+    background-color: #0492C2;
+    height: 50px;
+}
+
+.footer{
+    display: flex;
+    align-items: flex-end;
+    list-style:  none;
+}
+
+.footer li {
+    margin: 0 10px;
+}
+
+.footer a {
+    text-decoration: none; 
+    color: #333;
+    font-size: 16px;
+}
+.hero{
+    display:flex;
+}
+
+.profile {
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    padding: 20px;
+}
+.centered-image{
+    justify-content: center;
+}
+.left-column{
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.right-column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+#Sabiha {
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 30px;
+    padding: 20px;
+}
+
+.options img {
+    max-width: 100%;
+}
+
+#button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0492C2;
+}
+
+p{
+    font-size: large;
+}
